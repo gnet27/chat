@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ignite Chat</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+  <head>
+    <title>Chat Room</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    
+   
+
+    <div class="title-wrapper">
+      <h1><i class="fi-cloud large"></i>Ignite Chat</h1>
+      <button id="enter-btn" class="large">Enter</button>
+    </div>
+
+    <div class="wrapper">
+       <div class="fBase-ico">
+        <p><i class="fi-database small"></i>Powered by Firebase</p>
+       </div>
+      
+      <div class="messages">
+        <li>Domo: Hello World!</li>
+        <li>Domo: Welcome the Ignite Chat</li>
+      </div>
+
+      <form>
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="row collapse prefix-radius">
+              <div class="small-4 columns">
+                <span class="prefix">Username</span>
+              </div>
+              <div class="small-8 columns">
+                <input id="user-name-input" type="text" placeholder="Enter a Username">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="large-12 columns">
+            <label>
+              <textarea id="user-ms-input" placeholder="Enter a Message"></textarea>
+            </label>
+          </div>
+        </div>
+      </form>
+
+      <button class="tiny send-btn">Send</button>
+      <button class="tiny clear-chat">Clear Chat</button>
+    </div>
+
+    <div class="alert-wrapper">
+      <h4>Enter a username!</h4>
+    </div>
+
+    <script src="https://cdn.firebase.com/js/client/2.3.0/firebase.js"></script>
+  </body>
+</html>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
